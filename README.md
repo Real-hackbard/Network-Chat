@@ -20,7 +20,14 @@ Online chat is any direct text-, audio- or video-based , one-on-one or one-to-ma
 
 Online chat in a narrower sense is any kind of communication over the Internet that offers a [real-time](https://en.wikipedia.org/wiki/Real-time_text) transmission of text messages from sender to receiver. Chat messages are generally short in order to enable other participants to respond quickly. Thereby, a feeling similar to a spoken conversation is created, which distinguishes chatting from other text-based online communication forms such as [Internet forums](https://en.wikipedia.org/wiki/Internet_forum) and email. The expression online chat comes from the word chat which means "informal conversation".
 
+<(br>
 
+# Connection:
+network socket is a software structure within a [network node](https://en.wikipedia.org/wiki/Node_(networking)) of a [computer network](https://en.wikipedia.org/wiki/Computer_network) that serves as an endpoint for sending and receiving data across the network. The structure and properties of a socket are defined by an [application programming interface](https://en.wikipedia.org/wiki/API) (API) for the networking architecture. Sockets are created only during the lifetime of a process of an application running in the node.
+
+Because of the [standardization](https://en.wikipedia.org/wiki/Standardization) of the [TCP/IP](https://en.wikipedia.org/wiki/Internet_protocol_suite) protocols in the development of the Internet, the term network socket is most commonly used in the context of the Internet protocol suite, and is therefore often also referred to as Internet socket. In this context, a socket is externally identified to other hosts by its socket address, which is the triad of [transport protocol](https://en.wikipedia.org/wiki/Transport_layer), IP address, and [port number](https://en.wikipedia.org/wiki/Port_(computer_networking)#Port_number).
+
+The term socket is also used for the software endpoint of node-internal inter-process communication ([IPC](https://en.wikipedia.org/wiki/Inter-process_communication)), which often uses the same API as a network socket.
 
 
 
