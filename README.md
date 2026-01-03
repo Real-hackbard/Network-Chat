@@ -12,6 +12,20 @@
 
 Online chat is any direct text-, audio- or video-based , one-on-one or one-to-many ([group](https://en.wikipedia.org/wiki/Chat_room)) chat (formally also known as [synchronous conferencing](https://en.wikipedia.org/wiki/Online_chat)), using tools such as [instant messengers](https://en.wikipedia.org/wiki/Instant_messaging), Internet Relay Chat (IRC), talkers and possibly MUDs or other online games. Online chat includes web-based applications that allow communication – often directly addressed, but anonymous between users in a multi-user environment. [Web conferencing](https://en.wikipedia.org/wiki/Web_conferencing) is a more specific online service, that is often sold as a service, hosted on a web server controlled by the vendor. Online chat may address [point-to-point](https://en.wikipedia.org/wiki/Point-to-point_(telecommunications)) communications as well as [multicast](https://en.wikipedia.org/wiki/Multicast) communications from one sender to multiple receivers and voice and video chat, or may be a feature of a web conferencing service.
 
+</br>
+
+![NetworkChat](https://github.com/user-attachments/assets/5864afbc-c4fb-4919-8182-78d3c509ef5f)
+
+</br>
+
+Online chat in a narrower sense is any kind of communication over the Internet that offers a [real-time](https://en.wikipedia.org/wiki/Real-time_text) transmission of text messages from sender to receiver. Chat messages are generally short in order to enable other participants to respond quickly. Thereby, a feeling similar to a spoken conversation is created, which distinguishes chatting from other text-based online communication forms such as [Internet forums](https://en.wikipedia.org/wiki/Internet_forum) and email. The expression online chat comes from the word chat which means "informal conversation".
+
+
+
+
+
+
+
 
 
 
