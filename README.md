@@ -74,7 +74,7 @@ public class Main {
 
 </br>
 
-The traditional Berkeley sockets usage in C would look like this:
+The traditional Berkeley sockets usage in ```C``` would look like this:
 
 </br>
 
