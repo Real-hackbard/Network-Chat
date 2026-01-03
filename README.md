@@ -39,6 +39,8 @@ An application can communicate with a remote process by exchanging data with TCP
 # Examples:
 This example in [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), modeled according to the [Berkeley socket](https://en.wikipedia.org/wiki/Berkeley_sockets) interface, sends the string "Hello, world!" via TCP to port 80 of the host with address 203.0.113.0. It illustrates the creation of a socket, connecting it to the remote host, sending the string, and finally closing the socket:
 
+</br>
+
 ```Java
 package org.wikipedia.examples;
 
@@ -70,7 +72,52 @@ public class Main {
 }
 ```
 
+</br>
 
+The traditional Berkeley sockets usage in C would look like this:
+
+</br>
+
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <arpa/inet.h>
+#include <unistd.h>
+
+int main() {
+    char message[] = "Hello, World!";
+
+    // Create socket
+    int sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd == -1) {
+        fprintf(stderr, "Failed to create socket!\n");
+        return 1;
+    }
+
+    // Set server address
+    struct sockaddr_in server_addr = {
+        .sin_family = AF_INET, // Address family
+        .sin_port = htons(80), // Port number (converted to network byte order)
+        .sin_addr.s_addr = inet_addr("203.0.113.0"), // IP address
+    };
+
+    // Connect to server
+    if (connect(sockfd, (struct sockaddr*)&server_addr, sizeof(server_addr)) == -1) {
+        fprintf(stderr, "Connection failed!\n");
+        return 1;
+    }
+
+    // Send message
+    send(sockfd, message, strlen(message), 0);
+    printf("Message sent!\n");
+
+    // Close socket
+    close(sockfd);
+    return 0;
+}
+```
 
 
 
