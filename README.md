@@ -34,7 +34,41 @@ The term socket is also used for the software endpoint of node-internal inter-pr
 # Socket addresses:
 An application can communicate with a remote process by exchanging data with TCP/IP by knowing the combination of protocol type, IP address, and port number. This combination is often known as a socket address. It is the network-facing access handle to the network socket. The remote process establishes a network socket in its own instance of the protocol stack and uses the networking API to connect to the application, presenting its own socket address for use by the application.
 
+</br>
 
+# Examples:
+This example in [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), modeled according to the [Berkeley socket](https://en.wikipedia.org/wiki/Berkeley_sockets) interface, sends the string "Hello, world!" via TCP to port 80 of the host with address 203.0.113.0. It illustrates the creation of a socket, connecting it to the remote host, sending the string, and finally closing the socket:
+
+```Java
+package org.wikipedia.examples;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.SocketException;
+
+public class Main {
+    public static void main(String[] args) {
+        InetAddress address = InetAddress.getByName("203.0.113.0");
+
+        // IP = 203.0.113.0, port = 80
+        // the Socket is automatically closed at the end of the try block
+        // java.net.Socket uses TCP, while java.net.DatagramSocket uses UDP
+        try (Socket socket = new Socket(address, 80)) {
+            // writes to the output stream of the socket, with automatic flushing enabled
+            PrintWriter socketOut = new PrintWriter(socket.getOutputStream(), true);
+            socketOut.println("Hello, world!");
+        } catch (SocketException e) {
+            System.out.printf("An error occurred while accessing the socket: %s%n", e.getMessage());
+            e.printStackTrace();
+        } catch (IOException e) {
+            System.out.printf("An error occurred while writing to socket: %s%n", e.getMessage());
+            e.printStackTrace();
+        }
+    }
+}
+```
 
 
 
