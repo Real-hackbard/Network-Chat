@@ -203,6 +203,15 @@ The following list are common chat programs and protocols.
 * [WhatsApp](https://en.wikipedia.org/wiki/WhatsApp)
 * [Windows Live Messenger](https://en.wikipedia.org/wiki/MSN_Messenger)
 
+Chat programs supporting multiple protocols:
 
+* [Adium](https://en.wikipedia.org/wiki/Adium)
+* [Google+ Hangouts](https://en.wikipedia.org/wiki/Google_Hangouts)
+* [IBM Sametime](https://en.wikipedia.org/wiki/HCL_Sametime)
+* [Kopete](https://en.wikipedia.org/wiki/Kopete)
+* [Miranda NG](https://en.wikipedia.org/wiki/Miranda_NG)
+* [Pidgin](https://en.wikipedia.org/wiki/Pidgin_(software))
+* [Quiet Internet Pager](https://en.wikipedia.org/wiki/Quiet_Internet_Pager)
+* [Trillian](https://en.wikipedia.org/wiki/Trillian_(software))
 
 
