@@ -39,6 +39,8 @@ An application can communicate with a remote process by exchanging data with TCP
 # Examples:
 This example in [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), modeled according to the [Berkeley socket](https://en.wikipedia.org/wiki/Berkeley_sockets) interface, sends the string "Hello, world!" via TCP to port 80 of the host with address 203.0.113.0. It illustrates the creation of a socket, connecting it to the remote host, sending the string, and finally closing the socket:
 
+```Java``` Example:
+
 </br>
 
 ```Java
@@ -120,7 +122,7 @@ int main() {
 ```
 </br>
 
-Simple code to send and receive data by TCP in Python:
+Simple code to send and receive data by TCP in ```Python```:
 
 </br>
 
@@ -143,7 +145,7 @@ s.close()
 print "received data:", data
 ```
 
-Simple code to serve TCP in Python:
+Simple code to serve TCP in ```Python```:
 
 </br>
 
