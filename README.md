@@ -172,7 +172,36 @@ while 1:
   conn.close()
 ```
 
+</br>
 
+# Protocols:
+
+The following list are common chat programs and protocols.
+
+* [Camfrog](https://en.wikipedia.org/wiki/Camfrog)
+* [Campfire](https://en.wikipedia.org/wiki/37signals#Products)
+* [Discord](https://en.wikipedia.org/wiki/Discord)
+* [XMPP](https://en.wikipedia.org/wiki/XMPP) (Extensible Messaging and Presence Protocol)
+* [Flock](https://en.wikipedia.org/wiki/Flock_(messaging_service))
+* [Gadu-Gadu](https://en.wikipedia.org/wiki/Gadu-Gadu)
+* [I2P-Messenger](https://en.wikipedia.org/wiki/I2P#Instant_messaging) (anonymous, end-to-end encrypted IM for the [I2P](https://en.wikipedia.org/wiki/I2P) network)
+* [Line](https://en.wikipedia.org/wiki/Line_(software))
+* [Mattermost](https://en.wikipedia.org/wiki/Mattermost)
+* [Apple Messages](https://en.wikipedia.org/wiki/Messages_(Apple))
+* [Teams](https://en.wikipedia.org/wiki/Microsoft_Teams)
+* [Paltalk](https://en.wikipedia.org/wiki/Paltalk)
+* [RetroShare](https://en.wikipedia.org/wiki/Retroshare) (encrypted, decentralized)
+* [Signal](https://en.wikipedia.org/wiki/Signal_(software)) (encrypted messaging protocol and software)
+* [SILC](https://en.wikipedia.org/wiki/SILC_(protocol)) (Secure Internet Live Conferencing protocol)
+* [Slack](https://en.wikipedia.org/wiki/Slack_(software))
+* [TeamSpeak](https://en.wikipedia.org/wiki/TeamSpeak) (TS)
+* [Telegram](https://en.wikipedia.org/wiki/Telegram_(software))
+* [QQ](https://en.wikipedia.org/wiki/Tencent_QQ)
+* [The Palace](https://en.wikipedia.org/wiki/The_Palace_(computer_program)) (encrypted, decentralized)
+* [WebChat Broadcasting System](https://en.wikipedia.org/wiki/WebChat_Broadcasting_System) (WBS)
+* [WeChat](https://en.wikipedia.org/wiki/WeChat)
+* [WhatsApp](https://en.wikipedia.org/wiki/WhatsApp)
+* [Windows Live Messenger](https://en.wikipedia.org/wiki/MSN_Messenger)
 
 
 
