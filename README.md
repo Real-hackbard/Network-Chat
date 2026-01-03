@@ -29,6 +29,10 @@ Because of the [standardization](https://en.wikipedia.org/wiki/Standardization) 
 
 The term socket is also used for the software endpoint of node-internal inter-process communication ([IPC](https://en.wikipedia.org/wiki/Inter-process_communication)), which often uses the same API as a network socket.
 
+</br>
+
+# Socket addresses:
+An application can communicate with a remote process by exchanging data with TCP/IP by knowing the combination of protocol type, IP address, and port number. This combination is often known as a socket address. It is the network-facing access handle to the network socket. The remote process establishes a network socket in its own instance of the protocol stack and uses the networking API to connect to the application, presenting its own socket address for use by the application.
 
 
 
