@@ -20,7 +20,7 @@ Online chat is any direct text-, audio- or video-based , one-on-one or one-to-ma
 
 Online chat in a narrower sense is any kind of communication over the Internet that offers a [real-time](https://en.wikipedia.org/wiki/Real-time_text) transmission of text messages from sender to receiver. Chat messages are generally short in order to enable other participants to respond quickly. Thereby, a feeling similar to a spoken conversation is created, which distinguishes chatting from other text-based online communication forms such as [Internet forums](https://en.wikipedia.org/wiki/Internet_forum) and email. The expression online chat comes from the word chat which means "informal conversation".
 
-<(br>
+</br>
 
 # Connection:
 network socket is a software structure within a [network node](https://en.wikipedia.org/wiki/Node_(networking)) of a [computer network](https://en.wikipedia.org/wiki/Computer_network) that serves as an endpoint for sending and receiving data across the network. The structure and properties of a socket are defined by an [application programming interface](https://en.wikipedia.org/wiki/API) (API) for the networking architecture. Sockets are created only during the lifetime of a process of an application running in the node.
